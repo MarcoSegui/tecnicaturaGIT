@@ -1169,7 +1169,6 @@ Dante Nicolás Martinez - Parte 6
 <a href="https://drive.google.com/file/d/1NTGpKOXqoOG7VMwivEXkyY6BY6hUfc7b/view?usp=drive_link" target="_blank">PDF</a>
 
 
-
 <h3 align="center">CLASE 11</h1>
 
 <h4 align="center">Configura tus llaves SSH en local (+ portafolio 7)</h4>
@@ -1289,3 +1288,84 @@ Dante Nicolás Martinez - Parte 7
 <a href="https://drive.google.com/file/d/1trOr0EnQcvLFy1LAqzGo_-W1M5W9Rtvb/view?usp=drive_link" target="_blank">PRACTICA</a>
 
 <a href="https://drive.google.com/file/d/1LkqdZ8U1qqjR57v3LDzDLLhXScmIXEUK/view?usp=drive_link" target="_blank">PDF</a>
+
+
+<h3 align="center">Clase 11 Actividad en Python</h1>
+
+<h4 align="center">Hoy vamos a hacer actividad en Python en un día como programadores:</h4>
+
+```sh
+En este caso vamos a hacer lo que hace PyCharm por nosotros, ahora podemos hacer esto, si quieres saber más, investiga utilizando el tutor de IA, para que crezcas en tus conocimientos del entorno virtual de Python.
+
+
+
+1. Abrir la terminal de Git Bash o terminal en Linux, debe ser como administrador en Window
+
+2. Creamos una carpeta o directorio: 
+
+mkdir python-final
+
+3. Entramos en ella: 
+
+cd python-final
+
+4. Iniciamos el repositorio:
+
+git init
+
+5. Creamos un archivo:
+
+touch finales.py
+
+6. Abrimos VSC:
+
+code .
+
+7. En terminal ingresamos el comando para saber la versión de Python que tenemos instalada:
+
+python -V
+
+python3 -V
+
+PY --version
+
+8. Creamos el entorno virtual en Python:
+
+python3 -m venv venv #Creamos el entorno virtual
+
+py -m venv venv
+
+9. Activamos el entorno virtual:
+
+source venv/bin/activate #Activamos el entorno virtual en Linux
+
+venv/scripts/activate #En windows
+
+10. Hacemos actualización del pip de Python
+
+python3 -m pip install --upgrade pip #Actualizamos el pip
+
+py -m pip install --upgrade pip
+
+11. Investigar ¿Qué es el pip y porque lo actualizamos?
+
+#¿Qué es PIP?
+
+PIP (Package Installer for Python) es el sistema de gestión de paquetes predeterminado para Python. Permite instalar, actualizar y eliminar librerías y dependencias de terceros desde el Python Package Index (PyPI) y otros repositorios.
+
+#¿Por qué hay que actualizar PIP?
+
+Actualizar PIP es importante por varias razones:
+
+Seguridad: Las versiones nuevas corrigen vulnerabilidades que podrían ser explotadas.
+
+Compatibilidad: Asegura que PIP funcione correctamente con versiones recientes de Python y paquetes.
+
+Mejoras de rendimiento: Optimiza la velocidad de instalación y resolución de dependencias.
+
+Nuevas funciones: Incorpora herramientas útiles (como mejor manejo de entornos virtuales o soporte para nuevos estándares).
+
+12. Hacer al primer commit de este trabajo y unirlo al repositorio remoto.
+
+13. Enviar el enlace del repositorio remoto donde tiene que tener un README.md con todos los detalles de lo que les fui mostrando en comandos, y las respuesta del punto 11 de más arriba.
+```
