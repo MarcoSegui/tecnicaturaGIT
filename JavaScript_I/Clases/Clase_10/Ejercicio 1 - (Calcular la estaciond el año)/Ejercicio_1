@@ -1,0 +1,23 @@
+//EJERCICIO 1 :  - Calcular estacion del año
+
+let mes = 0;
+let estacion;
+
+if (1 <= mes && mes <= 2 || mes == 12)  {
+    estacion = 'Verano';
+}
+else if (3 <= mes && mes <= 5 )    {
+    estacion = 'Otoño';
+}
+else if (6 <= mes && mes <= 7) {
+    estacion = 'Invierno';
+}
+else if (8 <= mes && mes <= 11)    {
+    estacion = 'Primavera';
+}
+else{
+    estacion = 'El valor ingresado fue incorrecto';
+}
+
+console.log('El valor ingresado corresponde a la estacion ' + estacion);
+
