@@ -1,4 +1,8 @@
-
+/*
+for (inicialización; condición; actualización) {
+    // código a repetir
+}
+*/
 package Clase1;
 
 public class CiclosFor {
